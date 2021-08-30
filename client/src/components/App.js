@@ -48,7 +48,7 @@ class App extends Component {
     return (
       <>
         <Router>
-          <Home/>
+          <Home path="/"/>
           <NotFound default />
         </Router>
       </>
