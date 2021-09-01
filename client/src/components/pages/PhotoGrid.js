@@ -3,6 +3,9 @@ import React, { Component } from "react";
 import "../../utilities.css";
 import "./PhotoGrid.css";
 
+import Card from "./Card.js";
+
+
 
 class PhotoGrid extends Component {
   constructor(props) {
@@ -16,7 +19,7 @@ class PhotoGrid extends Component {
     let card = (
         <>
         <div className="col-md-4 col-lg-3 item">
-                <div className="box" >
+                <div className="box" style={{backgroundImage: `url("https://www.freecodecamp.org/news/content/images/size/w2000/2020/12/fcc-bg-image-2.png")`}}>
                     <div className="cover">
                     </div>
                 </div>
@@ -34,6 +37,14 @@ class PhotoGrid extends Component {
                 <h2 className="text-center">Work </h2>
             </div>
             <div className="row people">
+                <Card title="iRobot"/>
+                <Card title="iRobot"/>
+                <Card title="iRobot"/>
+                <Card title="iRobot"/>
+                <Card title="iRobot"/>
+                <Card title="iRobot"/>
+                <Card title="iRobot"/>
+                <Card title="iRobot"/>
                 {card}
                 {card}
                 {card}
