@@ -57,7 +57,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(31, 148, 255, 0.75);
+  background-color: #59a5aa;
   transition: opacity 0.15s ease-in;
   opacity: 0;
   padding-top: 80px;
@@ -66,7 +66,7 @@
 }
 
 .team-grid .item:hover .cover {
-  opacity: 1;
+  opacity: 0.5;
 }
 
 .team-grid .item .name {
@@ -96,4 +96,74 @@
 
 .team-grid .social a:hover {
   opacity: 1;
+}
+
+.closeBox {
+  padding-left: 7px !important;
+  padding-right: 7px !important;
+}
+
+.image-title {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 1.4rem;
+  margin-top: 10px;
+}
+
+.custom-container {
+  max-width: 2000px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.Medtronic {
+  background-image: url("medtronicpal.png");
+}
+
+.iRobot {
+  background-image: url("irobot.jpg");
+}
+
+.Spartan {
+  background-image: url("red.png");
+}
+
+.Yo-yos {
+  background-image: url("2008.png");
+}
+
+.Tactile {
+  background-image: url("tmg.jpg");
+}
+
+.Moonshot {
+  background-image: url("moonshot.jpg");
+}
+
+.Desktop {
+  background-image: url("furbie.jpg");
+}
+
+.Astro {
+  background-image: url("moose.png");
+}
+
+.Web {
+  background-image: url("milkcookie.png");
+}
+
+.Instruo {
+  background-image: url("instruo.jpg");
+}
+
+.FunnelVision {
+  background-image: url("funnelvision.jpg");
+}
+
+.Chalk {
+  background-image: url("chalk.png");
 }

@@ -19,7 +19,7 @@ class PhotoGrid extends Component {
     let card = (
         <>
         <div className="col-md-4 col-lg-3 item">
-                <div className="box" style={{backgroundImage: `url("https://www.freecodecamp.org/news/content/images/size/w2000/2020/12/fcc-bg-image-2.png")`}}>
+                <div className="box">
                     <div className="cover">
                     </div>
                 </div>
@@ -31,27 +31,26 @@ class PhotoGrid extends Component {
       <>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"/>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet"/>
         <div className="team-grid">
-        <div className="container">
+        <div className="custom-container">
             <div className="intro">
-                <h2 className="text-center">Work </h2>
             </div>
             <div className="row people">
-                <Card title="iRobot"/>
-                <Card title="iRobot"/>
-                <Card title="iRobot"/>
-                <Card title="iRobot"/>
-                <Card title="iRobot"/>
-                <Card title="iRobot"/>
-                <Card title="iRobot"/>
-                <Card title="iRobot"/>
-                {card}
-                {card}
-                {card}
-                {card}
-                {card}
-                {card}
-                {card}
+                <Card title="iRobot" imglink="irobot"/>
+                <Card title="Medtronic" imglink="medtronic"/>
+                <Card title="Spartan" imglink="spartan"/>
+                <Card title="Tactile Seat" imglink="tmg"/>
+                <Card title="Yo-yos" imglink="yoyos"/>
+                <Card title="Moonshot" imglink="moonshot"/>
+                <Card title="Desktop Assistant" imglink="deskassistant"/>
+                <Card title="Astro Adventure" imglink="toydesign"/>
+                <Card title="Web Design" imglink="webdesign"/>
+                <Card title="Chalk Murals" imglink="chalk"/>
+                <Card title="Instruo" imglink="instruo"/>
+                <Card title="FunnelVision" imglink="obm"/>
             </div>
         </div>
     </div>

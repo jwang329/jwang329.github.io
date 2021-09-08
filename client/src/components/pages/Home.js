@@ -3,6 +3,7 @@ import React, { Component } from "react";
 import "../../utilities.css";
 import "./Skeleton.css";
 import PhotoGrid from "./PhotoGrid.js";
+import NavBar from "./NavBar.js";
 
 
 class Home extends Component {
@@ -19,7 +20,7 @@ class Home extends Component {
   render() {
     return (
       <>
-        <h1>Home page :)</h1>
+        <NavBar/>
         <PhotoGrid />
       </>
     );

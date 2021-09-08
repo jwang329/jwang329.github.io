@@ -8,6 +8,7 @@ import "./PhotoGrid.css";
  *
  * Proptypes
  * @param {string} title
+ * @param {string} imglink
  */
 
 
@@ -25,12 +26,11 @@ class Card extends Component {
   render() {
     return (
       <>
-        <div className="col-md-4 col-lg-3 item">
-                <div className="box">
-                    <div className="cover">
-                    </div>
+        <div className="col-md-4 col-lg-3 item closeBox">
+                <div className={`box ${this.props.title}`}>
+                    <a href={'/' + this.props.imglink} className="cover"></a>
                 </div>
-                <h3>{this.props.title}</h3>
+                {/* <div className="image-title">{this.props.title}</div> */}
             </div>
       </>
     );
