@@ -49,6 +49,7 @@
   display: inline-block;
   width: 80px;
   letter-spacing: 2px;
+  margin-right: 1.2rem;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }

@@ -3,6 +3,10 @@
   background-color: #fff;
 }
 
+.team-grid {
+  background-color: #fbfbfb !important;
+}
+
 .team-grid p {
   color: #7d8285;
 }
@@ -57,45 +61,17 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: #59a5aa;
+  background-color: #d2dcddd0;
   transition: opacity 0.15s ease-in;
   opacity: 0;
-  padding-top: 80px;
-  color: #fff;
-  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+  padding-top: 40%;
+  /* color: #fff;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15); */
 }
 
 .team-grid .item:hover .cover {
-  opacity: 0.5;
-}
-
-.team-grid .item .name {
-  font-weight: bold;
-  margin-bottom: 8px;
-}
-
-.team-grid .item .title {
-  text-transform: uppercase;
-  font-weight: bold;
-  color: #bbd8fb;
-  letter-spacing: 2px;
-  font-size: 13px;
-  margin-bottom: 20px;
-}
-
-.team-grid .social {
-  font-size: 18px;
-}
-
-.team-grid .social a {
-  color: inherit;
-  margin: 0 10px;
-  display: inline-block;
-  opacity: 0.7;
-}
-
-.team-grid .social a:hover {
   opacity: 1;
+  text-decoration: none;
 }
 
 .closeBox {
@@ -104,12 +80,19 @@
 }
 
 .image-title {
+  color: #535353;
   text-align: center;
   font-family: "Poppins", sans-serif;
   text-transform: uppercase;
   font-weight: 500;
-  font-size: 1.4rem;
-  margin-top: 10px;
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+  text-decoration: none;
+  /* margin-top: 10px; */
+}
+
+.a {
+  text-decoration: none;
 }
 
 .custom-container {
@@ -121,49 +104,49 @@
 }
 
 .Medtronic {
-  background-image: url("medtronicpal.png");
+  background-image: url("./photos/medtronicpal.png");
 }
 
 .iRobot {
-  background-image: url("irobot.jpg");
+  background-image: url("./photos/irobot.jpg");
 }
 
 .Spartan {
-  background-image: url("red.png");
+  background-image: url("./photos/red.png");
 }
 
 .Yo-yos {
-  background-image: url("2008.png");
+  background-image: url("./photos/2008.png");
 }
 
 .Tactile {
-  background-image: url("tmg.jpg");
+  background-image: url("./photos/tmg.jpg");
 }
 
 .Moonshot {
-  background-image: url("moonshot.jpg");
+  background-image: url("./photos/moonshot.jpg");
 }
 
 .Desktop {
-  background-image: url("furbie.jpg");
+  background-image: url("./photos/furbie.jpg");
 }
 
 .Astro {
-  background-image: url("moose.png");
+  background-image: url("./photos/moose.png");
 }
 
 .Web {
-  background-image: url("milkcookie.png");
+  background-image: url("./photos/milkcookie.png");
 }
 
 .Instruo {
-  background-image: url("instruo.jpg");
+  background-image: url("./photos/instruo.jpg");
 }
 
 .FunnelVision {
-  background-image: url("funnelvision.jpg");
+  background-image: url("./photos/funnelvision.jpg");
 }
 
 .Chalk {
-  background-image: url("chalk.png");
+  background-image: url("./photos/chalk.png");
 }

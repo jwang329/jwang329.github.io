@@ -3,6 +3,7 @@ import { Router } from "@reach/router";
 import NotFound from "./pages/NotFound.js";
 import Skeleton from "./pages/Skeleton.js";
 import Home from "./pages/Home.js";
+import About from "./pages/About.js";
 
 import "../utilities.css";
 
@@ -23,9 +24,21 @@ class App extends Component {
     return (
       <>
         <Router>
-          <Home 
-            path="/"
-          />
+          <Home path="/"/>
+          <About path="/about"/>
+          {/* <Resume path="/resume"/>
+          <iRobot path="/irobot"/>
+          <Medtronic path="/medtronic"/>
+          <Spartan path="/spartan"/>
+          <TangibleMedia path="/tmg"/>
+          <Yoyos path="/yoyos"/>
+          <Moonshot path="/moonshot"/>
+          <Careshare path="/deskassistant"/>
+          <ToyDesign path="/toydesign"/>
+          <WebDesign path="/webdesign"/>
+          <Chalk path="/chalk"/>
+          <Instruo path="/instruo"/>
+          <ObjectMedia path="/obm"/> */}
           <NotFound default />
         </Router>
       </>

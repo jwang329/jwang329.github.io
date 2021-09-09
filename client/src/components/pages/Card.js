@@ -28,7 +28,9 @@ class Card extends Component {
       <>
         <div className="col-md-4 col-lg-3 item closeBox">
                 <div className={`box ${this.props.title}`}>
-                    <a href={'/' + this.props.imglink} className="cover"></a>
+                    <a href={'/' + this.props.imglink} className="cover">
+                            <div class="image-title">{this.props.title}</div>
+                    </a>
                 </div>
                 {/* <div className="image-title">{this.props.title}</div> */}
             </div>
